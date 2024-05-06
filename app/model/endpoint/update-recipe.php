@@ -1,5 +1,5 @@
 <?php
-include('../conn/conn.php');
+include('../../conn/conn.php');
 
 $recipeID = $_POST['tbl_recipe_id'];
 $updateRecipeName = $_POST['recipe_name'];
@@ -25,7 +25,7 @@ if ($_FILES['recipe_image']['tmp_name'] != "") {
 // Redirect back to the main page after update
 echo "<script>
     alert('Updated Successfully'); 
-    window.location.href = 'http://localhost/php_project/php/diets.php';
+    window.location.href = 'http://localhost/php_project/app/model/diets.php';
     </script>";
 exit();
 ?>

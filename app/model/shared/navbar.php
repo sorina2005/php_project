@@ -7,11 +7,11 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                      <a class="nav-link" href="index.php">Home</a>
-                      <a class="nav-link" href="aboutus.php">About Us</a>
-                      <a class="nav-link" href="contact.php">Contact</a>
-                      <a class="nav-link" href="diets.php">Recipes</a>
-                      <a class="nav-link btn btn-dark" href="../login_register/logout.php">Logout</a>
+                      <a class="nav-link" href="/xampp/htdocs/php_project/public/index.php">Home</a>
+                      <a class="nav-link" href="/xampp/htdocs/php_project/app/model/aboutus.php">About Us</a>
+                      <a class="nav-link" href="/php_project/app/model/contact.php">Contact</a>
+                      <a class="nav-link" href="/php_project/app/model/diets.php">Recipes</a>
+                      <a class="nav-link btn btn-dark" href="/php_project/app/model/login_register/logout.php">Logout</a>
                       </div>
                     </div>
                   </div>
@@ -28,16 +28,16 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                      <a class="nav-link" href="index.php">Home</a>
-                      <a class="nav-link" href="aboutus.php">About Us</a>
-                      <a class="nav-link" href="contact.php">Contact</a>
+                      <a class="nav-link" href="/php_project/public/index.php">Home</a>
+                      <a class="nav-link" href="/php_project/app/model/aboutus.php">About Us</a>
+                      <a class="nav-link" href="/php_project/app/model/contact.php">Contact</a>
                       <div class="dropdown">
                         <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                           Login/Register
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                          <li><a class="dropdown-item" href="../login_register/login.php">Login</a></li>
-                          <li><a class="dropdown-item" href="../login_register/register.php">Register</a></li>
+                          <li><a class="dropdown-item" href="/php_project/app/model/login_register/login.php">Login</a></li>
+                          <li><a class="dropdown-item" href="/php_project/app/model/login_register/register.php">Register</a></li>
                         </ul>
                       </div>
                     </div>

@@ -1,5 +1,5 @@
 <?php 
-include('../conn/conn.php');
+include('../../conn/conn.php');
 
 $recipeName = $_POST['recipe_name'];
 $recipeCategory = $_POST['tbl_category_id'];
@@ -45,7 +45,7 @@ if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg
 if ($uploadOk == 0) {
     echo "<script>
     alert('There\'s a problem with your image, try another image'); 
-    window.location.href = 'http://localhost/php_project/php/diets.php';
+    window.location.href = 'http://localhost/php_project/app/model/diets.php';
     </script>";
 } else {
     if (move_uploaded_file($recipeImageTmpName, $target_file)) {
@@ -62,13 +62,13 @@ if ($uploadOk == 0) {
 
         echo "<script>
         alert('Sucessfully Added'); 
-        window.location.href = 'http://localhost/php_project/php/diets.php';
+        window.location.href = 'http://localhost/php_project/app/model/diets.php';
         </script>";
 
     } else {
         echo "<script>
         alert('Failed'); 
-        window.location.href = 'http://localhost/php_project/php/diets.php';
+        window.location.href = 'http://localhost/php_project/app/mpdel/diets.php';
         </script>";
     }
 }

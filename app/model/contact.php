@@ -8,7 +8,7 @@ session_start();
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>contact</title>
-        <link rel="stylesheet" href="../css/contact_style.css">
+        <link rel="stylesheet" href="../resources/css/contact_style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <script src="../js/contact_script.js" defer></script>
@@ -21,7 +21,7 @@ session_start();
         
      <!-- Navbar -->
      <?php
-          include("navbar.php");
+          include("shared/navbar.php");
       ?>
 
            <main>
@@ -92,7 +92,7 @@ session_start();
      </main>
             
      <?php
-            include("footer.php");
+            include("shared/footer.php");
       ?>
     </body>
 </html>

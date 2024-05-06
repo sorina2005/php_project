@@ -74,13 +74,13 @@
           <h5 class="text-uppercase">Links</h5>
           <ul class="list-unstyled mb-auto">
             <li>
-              <a class="text-body" href="C:\xampp\htdocs\php_project\php\index.php"">Home</a>
+              <a class="text-body" href="/php_project/public/index.php">Home</a>
             </li>
             <li>
-              <a class="text-body" href="C:\xampp\htdocs\php_project\html\aboutus.html">About Us</a>
+              <a class="text-body" href="/php_project/app/model/aboutus.php">About Us</a>
             </li>
             <li>
-            <a class="text-body" href="C:\xampp\htdocs\php_project\html\contact.html">Contact</a>
+            <a class="text-body" href="/php_project/app/model/contact.php">Contact</a>
             </li>
           </ul>
         </div>

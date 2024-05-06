@@ -1,5 +1,5 @@
 <?php
-include('../conn/conn.php');
+include('../../conn/conn.php');
 
 if (isset($_GET['recipe'])) {
     $recipeID = $_GET['recipe'];
@@ -26,7 +26,7 @@ if (isset($_GET['recipe'])) {
     // Redirect to the page where you want to display the updated book list
     echo "<script>
     alert('Deleted Successfully'); 
-    window.location.href = 'http://localhost/php_project/php/diets.php';
+    window.location.href = 'http://localhost/php_project/app/model/diets.php';
     </script>";
     exit();
 }
